@@ -1,0 +1,2 @@
+# MySolider
+Artificial intelligence Game
