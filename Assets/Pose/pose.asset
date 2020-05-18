@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: pose
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Hip
+    localPosition: {x: 0.04633379, y: -0.59081185, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torsu
+    localPosition: {x: 0.41000906, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torsu/Head
+    localPosition: {x: 0.8500198, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torsu/LeftArm
+    localPosition: {x: 0.562479, y: 0.5437117, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9126986, w: 0.40863338}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torsu/LeftArm/LeftHand
+    localPosition: {x: 0.5500003, y: -0.00000035762787, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torsu/RightArm
+    localPosition: {x: 0.56569743, y: -0.4977346, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.94384253, w: 0.3303956}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torsu/RightArm/RightHand
+    localPosition: {x: 0.5700002, y: 0.00000023841858, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/LeftLeg
+    localPosition: {x: 0.030286465, y: 0.34441474, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9999943, w: 0.0033859115}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/RightLeg
+    localPosition: {x: 0.024150703, y: -0.3332922, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9999591, w: 0.009049464}
+    localScale: {x: 1, y: 1, z: 1}
