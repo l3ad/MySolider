@@ -151,14 +151,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259652514284056264}
-  m_LocalRotation: {x: 0, y: 0, z: -0.94384253, w: 0.3303956}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7118953, w: 0.70228565}
   m_LocalPosition: {x: 0.56569743, y: -0.4977346, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 259652515039374167}
   m_Father: {fileID: 259652515592648673}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -141.414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.77901}
 --- !u!114 &259652514284056270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,9 +172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.57
+  m_Length: 0.57000077
   m_ChildTransform: {fileID: 259652515039374167}
-  m_AttachedIK: {fileID: 0}
+  m_AttachedIK: {fileID: 259652514386092376}
 --- !u!1 &259652514329584573
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.4100091
+  m_Length: 0.41000918
   m_ChildTransform: {fileID: 259652515592648673}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &259652514353147879
@@ -312,15 +312,15 @@ MonoBehaviour:
     m_SolverPoses:
     - m_BoneTransform: {fileID: 259652514284056265}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.9439231, w: 0.33016527}
+      solverRotation: {x: 0, y: 0, z: -0.7118953, w: 0.70228565}
       defaultLocalRotation: {x: 0, y: 0, z: -0.7474902, w: 0.66427284}
     - m_BoneTransform: {fileID: 259652515039374167}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.0005980199, w: 0.9999998}
+      solverRotation: {x: 0, y: 0, z: 0, w: 1}
       defaultLocalRotation: {x: 0, y: 0, z: 0.056359492, w: 0.9984106}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: 1.1615149, y: -0.3889659, z: 0}
+    targetPosition: {x: 5.479614, y: -1.2671354, z: 0}
     flip: 0
 --- !u!1 &259652514551521186
 GameObject:
@@ -790,7 +790,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.42
   m_ChildTransform: {fileID: 0}
-  m_AttachedIK: {fileID: 0}
+  m_AttachedIK: {fileID: 259652514386092376}
 --- !u!1 &259652515177960706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,13 +1065,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259652515588806000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0014443556, w: 0.999999}
   m_LocalPosition: {x: 0.5500003, y: -0.00000035762787, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 259652516309349393}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.16600001}
 --- !u!114 &259652515588806006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,7 +1087,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.43
   m_ChildTransform: {fileID: 0}
-  m_AttachedIK: {fileID: 0}
+  m_AttachedIK: {fileID: 259652515986077069}
 --- !u!1 &259652515592648672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,7 +1135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.85002005
+  m_Length: 0.85001993
   m_ChildTransform: {fileID: 259652515943025216}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &259652515604315968
@@ -1522,7 +1522,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 22737aed78caa4c4a93dd4a3e8953c0e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -1554,6 +1554,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24219944e6867ca49ac22e65b196cb50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthPoint:
+    baseValue: 5
+  strenght:
+    baseValue: 2
+  defence:
+    baseValue: 1
+  Aglity:
+    baseValue: 1
+  moveSpeed:
+    baseValue: 1
+  dexterity:
+    baseValue: 0
+  dodge:
+    baseValue: 0
+  recovery:
+    baseValue: 0
+  eTC: {fileID: 0}
+  thisTag: Player
+  traningStat: 0
+  normalMove: 01000000
+  skillCooldown:
+  - 0
+  - 0
+  - 0
+  skillB: 000000
 --- !u!1 &259652515811774837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,15 +1758,15 @@ MonoBehaviour:
     m_SolverPoses:
     - m_BoneTransform: {fileID: 259652516309349393}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.9125118, w: 0.40905026}
+      solverRotation: {x: 0, y: 0, z: 0.70255876, w: 0.71162575}
       defaultLocalRotation: {x: 0, y: 0, z: 0.7281249, w: 0.68544453}
     - m_BoneTransform: {fileID: 259652515588806001}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.0010780958, w: 0.9999994}
+      solverRotation: {x: 0, y: 0, z: 0.0014443555, w: 0.9999989}
       defaultLocalRotation: {x: 0, y: 0, z: 0, w: 1}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -1.2283784, y: -0.27104068, z: 0}
+    targetPosition: {x: 7.286388, y: -1.2541866, z: 0}
     flip: 0
 --- !u!1 &259652516122595289
 GameObject:
@@ -2014,14 +2039,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259652516309349392}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9126986, w: 0.40863338}
+  m_LocalRotation: {x: 0, y: 0, z: 0.70255876, w: 0.71162575}
   m_LocalPosition: {x: 0.562479, y: 0.5437117, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 259652515588806001}
   m_Father: {fileID: 259652515592648673}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 131.76201}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.26501}
 --- !u!114 &259652516309349398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2035,6 +2060,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.55000055
+  m_Length: 0.5500002
   m_ChildTransform: {fileID: 259652515588806001}
-  m_AttachedIK: {fileID: 0}
+  m_AttachedIK: {fileID: 259652515986077069}

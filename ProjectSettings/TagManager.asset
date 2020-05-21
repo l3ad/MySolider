@@ -6,9 +6,8 @@ TagManager:
   tags:
   - Ground
   - UpGround
-  - DivarRast
-  - DivarChap
   - Tolombe
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -20,7 +19,7 @@ TagManager:
   - 
   - Tools
   - Player
-  - 
+  - Enemy
   - 
   - 
   - 
